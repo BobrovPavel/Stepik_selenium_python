@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
-button_locator = (By.XPATH, "ыы//button[contains(@class,'btn-add-to-basket')]")
+button_locator = (By.XPATH, "//button[contains(@class,'btn-add-to-basket')]")
 
 
 def test_button_availability(browser):
